@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1AC1791D5C76A700ACE63F /* NSDate+WQExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1AC1781D5C76A700ACE63F /* NSDate+WQExtensions.m */; };
 		3EA229021D5C533700A86268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA229011D5C533700A86268 /* main.m */; };
 		3EA229051D5C533700A86268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA229041D5C533700A86268 /* AppDelegate.m */; };
 		3EA229081D5C533700A86268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA229071D5C533700A86268 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E1AC1771D5C76A700ACE63F /* NSDate+WQExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQExtensions.h"; sourceTree = "<group>"; };
+		3E1AC1781D5C76A700ACE63F /* NSDate+WQExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQExtensions.m"; sourceTree = "<group>"; };
 		3EA228FD1D5C533600A86268 /* NSDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA229011D5C533700A86268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EA229031D5C533700A86268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				3EA229041D5C533700A86268 /* AppDelegate.m */,
 				3EA229061D5C533700A86268 /* ViewController.h */,
 				3EA229071D5C533700A86268 /* ViewController.m */,
+				3E1AC1771D5C76A700ACE63F /* NSDate+WQExtensions.h */,
+				3E1AC1781D5C76A700ACE63F /* NSDate+WQExtensions.m */,
 				3EA229091D5C533700A86268 /* Main.storyboard */,
 				3EA2290C1D5C533700A86268 /* Assets.xcassets */,
 				3EA2290E1D5C533700A86268 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				3EA229081D5C533700A86268 /* ViewController.m in Sources */,
 				3EA229051D5C533700A86268 /* AppDelegate.m in Sources */,
+				3E1AC1791D5C76A700ACE63F /* NSDate+WQExtensions.m in Sources */,
 				3EA229021D5C533700A86268 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				3EA2292C1D5C533700A86268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EA2292D1D5C533700A86268 /* Build configuration list for PBXNativeTarget "NSDateTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				3EA2292F1D5C533700A86268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EA229301D5C533700A86268 /* Build configuration list for PBXNativeTarget "NSDateUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				3EA229321D5C533700A86268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
